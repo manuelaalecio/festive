@@ -9,12 +9,12 @@
   --header-family: "Baloo 2", sans-serif;
   --body-family: "Open Sans", sans-serif;
 
-  --logo: 400 2.5rem / auto var(--logo-family);
-  --h-md: 700 1.75rem / auto var(--header-family);
-  --h-sm: 700 1.125rem / auto var(--header-family);
-  --body-md: 500 1rem / auto var(--body-family);
-  --body-sm: 500 0.875rem / auto var(--body-family);
-  --body-xs: 500 0.75rem / auto var(--body-family);
+  --logo: 400 2.5rem var(--logo-family);
+  --h-md: 700 1.75rem var(--header-family);
+  --h-sm: 700 1.125rem var(--header-family);
+  --body-md: 400 1rem var(--body-family);
+  --body-sm: 400 0.875rem var(--body-family);
+  --body-xs: 400 0.75rem var(--body-family);
 
   --text-body: #c8cdd0;
   --text-heading: #f9f9f9;
@@ -44,4 +44,16 @@
   --green: #59ff91;
   --cyan: #59fff9;
   --navy: #6a59ff;
+}
+
+body {
+  background-color: var(--shape-background);
+  margin: 1.25rem;
+
+  font: var(--body-md);
+  color: var(--text-body);
+}
+
+.border-radius {
+  border-radius: 0.75rem;
 }
