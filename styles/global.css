@@ -9,10 +9,39 @@
   --header-family: "Baloo 2", sans-serif;
   --body-family: "Open Sans", sans-serif;
 
-  --logo: 400 2.5rem/auto var(--logo-family);
-  --h-md: 700 1.75rem/auto var(--header-family);
-  --h-sm: 700 1.125rem/auto var(--header-family);
-  --body-md: 500 1rem/auto var(--body-family);
-  --body-sm: 500 0.875rem/auto var(--body-family);
-  --body-xs: 500 0.75rem/auto var(--body-family);
+  --logo: 400 2.5rem / auto var(--logo-family);
+  --h-md: 700 1.75rem / auto var(--header-family);
+  --h-sm: 700 1.125rem / auto var(--header-family);
+  --body-md: 500 1rem / auto var(--body-family);
+  --body-sm: 500 0.875rem / auto var(--body-family);
+  --body-xs: 500 0.75rem / auto var(--body-family);
+
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  --danger: #ff5959;
+
+  /* color */
+  --purple: #b259ff;
+  --fuschia: #ff59f9;
+  --pink: #ff598b;
+  --orange: #ff8b59;
+  --yellow: #ffcd59;
+  --lime: #e1ff59;
+  --green: #59ff91;
+  --cyan: #59fff9;
+  --navy: #6a59ff;
 }
